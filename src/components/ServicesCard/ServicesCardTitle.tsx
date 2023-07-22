@@ -3,5 +3,5 @@ interface ServicesCardTitleProps {
 }
 
 export function ServicesCardTitle({ children }: ServicesCardTitleProps) {
-  return <h3>{children}</h3>;
+  return <h5>{children}</h5>;
 }

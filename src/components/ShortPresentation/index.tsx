@@ -5,11 +5,9 @@ interface ShortPresentationProps {
   className?: string;
 }
 
-export const ShortPresentation: React.FC<ShortPresentationProps> = ({
-  className,
-}) => {
+export function ShortPresentation({ className }: ShortPresentationProps) {
   return (
-    <div
+    <section
       className={`flex justify-center items-center flex-col p-14 gap-4 ${className}`}
     >
       <Avatar className="w-28 h-28">
@@ -26,6 +24,6 @@ export const ShortPresentation: React.FC<ShortPresentationProps> = ({
       <Link className="text-white underline" href={"/"}>
         Let's talk.
       </Link>
-    </div>
+    </section>
   );
-};
+}
