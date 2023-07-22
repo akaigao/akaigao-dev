@@ -5,7 +5,9 @@ interface ShortPresentationProps {
   className?: string;
 }
 
-export const ShortPresentation = ({ className }: ShortPresentationProps) => {
+export const ShortPresentation: React.FC<ShortPresentationProps> = ({
+  className,
+}) => {
   return (
     <div
       className={`flex justify-center items-center flex-col p-14 gap-4 ${className}`}
