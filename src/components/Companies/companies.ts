@@ -1,4 +1,6 @@
-import coracoes3 from "../../../public/assets/images/3-coracoes.png";
+import mercafe from "../../../public/assets/images/mercafe.png";
+import coracoes3 from "../../../public/assets/svg/3coracoes.svg";
+import trescoracoes from "../../../public/assets/svg/trescoracoes.svg";
 
 const companies = [
   {
@@ -9,17 +11,12 @@ const companies = [
   {
     id: 2,
     name: "Grupo 3corações",
-    image: coracoes3,
+    image: trescoracoes,
   },
   {
     id: 3,
     name: "Grupo 3corações",
-    image: coracoes3,
-  },
-  {
-    id: 4,
-    name: "Grupo 3corações",
-    image: coracoes3,
+    image: mercafe,
   },
 ];
 
