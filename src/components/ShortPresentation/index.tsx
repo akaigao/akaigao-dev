@@ -8,7 +8,7 @@ interface ShortPresentationProps {
 export const ShortPresentation = ({ className }: ShortPresentationProps) => {
   return (
     <div
-      className={`flex justify-center items-center flex-col p-10 gap-4 ${className}`}
+      className={`flex justify-center items-center flex-col p-14 gap-4 ${className}`}
     >
       <Avatar className="w-28 h-28">
         <AvatarImage
@@ -18,7 +18,7 @@ export const ShortPresentation = ({ className }: ShortPresentationProps) => {
         <AvatarFallback>IG</AvatarFallback>
       </Avatar>
       <span className="text-xs text-gray-600">Wassup, everyone!</span>
-      <h1 className="text-3xl text-white text-center px-10">
+      <h1 className="md:text-5xl md:leading-snug text-4xl leading-tight text-white text-center lg:px-52 px-0">
         I'm Igão. I'm a Web Developer and Designer based in Brazil 👋
       </h1>
       <Link className="text-white underline" href={"/"}>
