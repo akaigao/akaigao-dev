@@ -8,7 +8,7 @@ interface CompaniesProps {
 export function Companies({ className }: CompaniesProps) {
   return (
     <section
-      className={`flex justify-center items-center h-36 border-t border-b border-solid border-gray-700 bg-gray-800 mb-4 ${className}`}
+      className={`flex justify-center items-center h-36 border-t border-b border-solid border-zinc-700 bg-zinc-800 mb-4 ${className}`}
     >
       <div className="flex justify-center items-center flex-row gap-12 max-h-12 w-auto">
         {companies.map((company) => (

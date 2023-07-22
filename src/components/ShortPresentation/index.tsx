@@ -8,7 +8,7 @@ interface ShortPresentationProps {
 export function ShortPresentation({ className }: ShortPresentationProps) {
   return (
     <section
-      className={`flex justify-center items-center flex-col p-14 gap-4 ${className}`}
+      className={`flex justify-center items-center flex-col p-14 gap-4 mx-4 ${className}`}
     >
       <Avatar className="w-28 h-28">
         <AvatarImage

@@ -5,7 +5,7 @@ import { ShortPresentation } from "@/components/ShortPresentation";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-900">
+    <main>
       <ShortPresentation />
       <Companies />
       <Service />
