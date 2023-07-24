@@ -10,13 +10,6 @@ export function ShortPresentation({ className }: ShortPresentationProps) {
     <section
       className={`flex justify-center items-center flex-col p-14 gap-4 mx-4 ${className}`}
     >
-      {/* <Avatar className="w-28 h-28">
-        <AvatarImage
-          src="https://github.com/akaigao.png"
-          alt="@akaigao"
-        ></AvatarImage>
-        <AvatarFallback>IG</AvatarFallback>
-      </Avatar> */}
       <span className="text-xs text-zinc-400 tracking-wide">
         Wassup, everyone! I'm Igão. 🤙
       </span>
