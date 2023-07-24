@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins, Unbounded } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: "100",
+});
+export const unbounded = Unbounded({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "IGÃO - Dev & Design",
@@ -16,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} min-h-screen bg-zinc-900`}>
+      <body className={`${poppins.className} min-h-screen bg-zinc-900`}>
         {children}
       </body>
     </html>
