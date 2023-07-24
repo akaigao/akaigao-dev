@@ -1,5 +1,4 @@
 import { unbounded } from "@/app/layout";
-import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
 
 interface ShortPresentationProps {
@@ -11,13 +10,13 @@ export function ShortPresentation({ className }: ShortPresentationProps) {
     <section
       className={`flex justify-center items-center flex-col p-14 gap-4 mx-4 ${className}`}
     >
-      <Avatar className="w-28 h-28">
+      {/* <Avatar className="w-28 h-28">
         <AvatarImage
           src="https://github.com/akaigao.png"
           alt="@akaigao"
         ></AvatarImage>
         <AvatarFallback>IG</AvatarFallback>
-      </Avatar>
+      </Avatar> */}
       <span className="text-xs text-zinc-400 tracking-wide">
         Wassup, everyone! I'm Igão. 🤙
       </span>
