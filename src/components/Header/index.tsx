@@ -18,16 +18,30 @@ export function Header() {
           href="https://www.linkedin.com/in/akaigao"
           target="_blank"
         >
-          <SocialMedias.Text>LinkedIn</SocialMedias.Text>
+          <SocialMedias.Text className="hover:text-rose-500 transition">
+            LinkedIn
+          </SocialMedias.Text>
         </SocialMedias.Box>
         <SocialMedias.Box href="https://www.github.com/akaigao" target="_blank">
-          <SocialMedias.Text>Github</SocialMedias.Text>
+          <SocialMedias.Text className="hover:text-rose-500 transition">
+            Github
+          </SocialMedias.Text>
+        </SocialMedias.Box>
+        <SocialMedias.Box
+          href="https://www.behance.net/akaigao"
+          target="_blank"
+        >
+          <SocialMedias.Text className="hover:text-rose-500 transition">
+            Behance
+          </SocialMedias.Text>
         </SocialMedias.Box>
         <SocialMedias.Box
           href="https://www.instagram.com/akaigao"
           target="_blank"
         >
-          <SocialMedias.Text>Instagram</SocialMedias.Text>
+          <SocialMedias.Text className="hover:text-rose-500 transition">
+            Instagram
+          </SocialMedias.Text>
         </SocialMedias.Box>
       </SocialMedias.Root>
     </header>
