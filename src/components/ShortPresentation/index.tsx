@@ -1,4 +1,6 @@
 import { unbounded } from "@/app/layout";
+import Image from "next/image";
+import cicle from "../../../public/assets/svg/circle2.svg";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
 
 interface ShortPresentationProps {
@@ -18,15 +20,15 @@ export function ShortPresentation({ className }: ShortPresentationProps) {
       >
         Developer <br />& Designer.
       </h1>
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 px-8 relative">
         <a
-          className="text-white underline tracking-wider"
+          className="text-white underline tracking-wider relative z-50"
           href="mailto:akaigao.dev@gmail.com"
         >
           Let's talk.
         </a>
         <Popover>
-          <PopoverTrigger className="px-4 p-2 text-zinc-100 bg-transparent border rounded-md border-s-zinc-100 tracking-wide hover:bg-zinc-800 transition">
+          <PopoverTrigger className="px-4 p-2 text-zinc-100 bg-zinc-900 bg-opacity-70 border rounded-md border-s-zinc-100 tracking-wide hover:bg-zinc-800 transition relative z-50">
             Download CV
           </PopoverTrigger>
           <PopoverContent className="flex flex-col gap-2 w-auto h-auto text-zinc-100 bg-zinc-900 border rounded-md border-s-zinc-100 tracking-wide">
@@ -46,6 +48,12 @@ export function ShortPresentation({ className }: ShortPresentationProps) {
             </a>
           </PopoverContent>
         </Popover>
+        <Image
+          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full"
+          src={cicle}
+          alt="circle"
+          width="0"
+        />
       </div>
     </section>
   );

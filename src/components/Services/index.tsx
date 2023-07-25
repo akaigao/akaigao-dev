@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 
 export function Service() {
   return (
-    <section className="h-auto w-auto p-1 mt-20 mx-4 text-center">
+    <section className="h-auto w-auto p-14 mt-20 text-center">
       <h2 className="md:text-3xl text-2xl text-white lg:px-48 md:px-36 mb-5">
         Join forces with brands and agencies to achieve impactful outcomes.
       </h2>
