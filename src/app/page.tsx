@@ -1,5 +1,6 @@
 import { Companies } from "@/components/Companies";
 import { Contact } from "@/components/Contact";
+import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Service } from "@/components/Services";
 import { ShortPresentation } from "@/components/ShortPresentation";
@@ -14,6 +15,7 @@ export default function Home() {
         <Service />
         <Contact />
       </main>
+      <Footer />
     </>
   );
 }
