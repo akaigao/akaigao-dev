@@ -1,3 +1,4 @@
+import { unbounded } from "@/app/layout";
 import Image from "next/image";
 import companies from "./companies";
 
@@ -8,8 +9,11 @@ interface CompaniesProps {
 export function Companies({ className }: CompaniesProps) {
   return (
     <section
-      className={`flex justify-center items-center h-36 border-t border-b border-solid border-zinc-700 border-opacity-30 bg-zinc-800 bg-opacity-30 mb-4 ${className}`}
+      className={`flex flex-col justify-center items-center gap-5 h-36 border-t border-b border-solid border-zinc-700 border-opacity-30 bg-zinc-800 bg-opacity-30 mb-4 ${className}`}
     >
+      <h2 className={`text-zinc-800 ${unbounded.className} font-black`}>
+        ?whyme?
+      </h2>
       <div className="flex justify-center items-center flex-row gap-12 max-h-12 w-auto">
         {companies.map((company) => (
           <Image
