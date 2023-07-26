@@ -4,15 +4,15 @@ import circle from "../../../public/assets/svg/circle.svg";
 
 export function Contact() {
   return (
-    <section className="flex justify-between gap-52 w-auto h-auto py-28 p-14 text-zinc-400 border-t-2 border-b-2 border-zinc-800">
+    <section className="flex sm:flex-row flex-col justify-between sm:gap-52 gap-8 w-auto h-auto py-28 p-14 text-zinc-400 border-t-2 border-b-2 border-zinc-800">
       <div className="relative">
         <h2
           className={`md:text-5xl md:leading-snug text-4xl text-white leading-tight font-black relative z-50 ${unbounded.className}`}
         >
-          Get in touch
+          Get in <br /> touch
         </h2>
         <Image
-          className="absolute -right-4 -top-2 z-0"
+          className="absolute sm:-right-4 left-20 -top-2 z-0"
           src={circle}
           alt="circle"
           width={100}
