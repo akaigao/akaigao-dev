@@ -1,4 +1,4 @@
-import { unbounded } from "@/app/layout";
+import { unbounded } from "@/app/fonts";
 import { Github, Image, Instagram, Linkedin } from "lucide-react";
 import { SocialMedias } from "../SocialMedias";
 

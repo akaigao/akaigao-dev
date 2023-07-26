@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
-import { Poppins, Unbounded } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
 const poppins = Poppins({
   subsets: ["latin"],
   weight: "100",
 });
-export const unbounded = Unbounded({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "IGÃO - Dev & Design",

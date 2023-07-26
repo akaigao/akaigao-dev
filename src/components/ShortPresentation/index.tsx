@@ -1,4 +1,4 @@
-import { unbounded } from "@/app/layout";
+import { unbounded } from "@/app/fonts";
 import Image from "next/image";
 import cicle from "../../../public/assets/svg/circle2.svg";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
