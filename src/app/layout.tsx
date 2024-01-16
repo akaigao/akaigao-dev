@@ -1,3 +1,4 @@
+import Metrics from "@/components/Metrics";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
@@ -21,6 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.className} min-h-screen bg-zinc-900`}>
         {children}
+        <Metrics />
       </body>
     </html>
   );
