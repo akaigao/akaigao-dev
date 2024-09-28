@@ -26,10 +26,10 @@ export function Contact() {
         </p>
         <span className="text-sm tracking-widest">
           <a
-            href="mailto:akaigao.dev@gmail.com"
+            href="mailto:wassup@igaosoza.com"
             className="underline font-black text-white"
           >
-            akaigao.dev@gmail.com
+            wassup@igaosoza.com
           </a>{" "}
           or LinkedIn for quick response.
         </span>
