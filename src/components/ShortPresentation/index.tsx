@@ -23,7 +23,7 @@ export function ShortPresentation({ className }: ShortPresentationProps) {
       <div className="flex items-center gap-4 px-8 relative">
         <a
           className="text-white underline tracking-wider relative z-50"
-          href="mailto:akaigao.dev@gmail.com"
+          href="mailto:wassup@igaosoza.com"
         >
           Let's talk.
         </a>
